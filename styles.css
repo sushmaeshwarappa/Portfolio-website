@@ -119,6 +119,7 @@ hr{
     text-align: center;
     border-top-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
+    margin-top: 5rem;
 }
 
 .footer .link{
@@ -132,4 +133,5 @@ hr{
 .footer .heading{
     font-weight: bold;
     font-size: large;
+    margin-bottom: 2rem;
 }
