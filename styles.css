@@ -4,6 +4,7 @@
     --primary-color: #63FFCC;
     --dark-gray:#6B7280;
     --light-gray:#F3F4F6;
+    --black: black;
 }
 
 body{
@@ -34,11 +35,20 @@ hr{
 
 .link-primary{
     background-color: var(--primary-color);
+    color: var(--black);
+    margin-bottom: 1rem;
+    max-width: 140px;
+    display: block;
+    text-align: center;
 }
 
 .link-secondary{
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
+    margin-top: 1rem;
+    max-width: 140px;
+    display: block;
+    text-align: center;
 }
 
 /**lists**/
@@ -66,7 +76,7 @@ hr{
 }
 
 .navigation .link{
-    color: black;
+    color: var(--black);
 }
 
 .nav-pill{
@@ -135,3 +145,11 @@ hr{
     font-size: large;
     margin-bottom: 2rem;
 }
+
+@media (max-width: 450px) {
+    .list-item-inline {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
